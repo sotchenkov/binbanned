@@ -19,6 +19,8 @@
 Перейдите в релизы, выберите интересующую вас версию и скачайте бинарь
 ```bash
 wget  https://github.com/sotchenkov/binbanned/releases/ (нужный файл)
+sudo mv binbanned-* /usr/bin/binbanned
+sudo chmod +x /usr/bin/binbanned
 ```
 
 * **Сборка:**
@@ -50,7 +52,7 @@ sudo vim /etc/systemd/system/binbanned.service
 
 ```ini
 [Unit]
-Description=Binbanned service
+Description=binbanned service
 After=network.target
 
 [Service]

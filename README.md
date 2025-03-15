@@ -23,6 +23,8 @@ You can download a precompiled binary or build it yourself:
 Visit the releases section, select the version you need, and download the binary:
 ```bash
 wget https://github.com/sotchenkov/binbanned/releases/ (required file)
+sudo mv binbanned-* /usr/bin/binbanned
+sudo chmod +x /usr/bin/binbanned
 ```
 
 * **Build:**
@@ -54,7 +56,7 @@ sudo vim /etc/systemd/system/binbanned.service
 
 ```ini
 [Unit]
-Description=Binbanned service
+Description=binbanned service
 After=network.target
 
 [Service]
