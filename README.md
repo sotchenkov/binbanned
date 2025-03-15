@@ -1,8 +1,8 @@
-# Binbanned
+# binbanned
 
 [Readme на русском](https://github.com/sotchenkov/binbanned/blob/main/README-RU.md)
 
-**Binbanned** — is a utility for real-time monitoring of Nginx logs and automatic IP blocking at the Nginx level for suspicious requests. It supports both JSON logs and the Common Log Format.
+**binbanned** — is a utility for real-time monitoring of Nginx logs and automatic IP blocking at the Nginx level for suspicious requests. It supports both JSON logs and the Common Log Format.
 
 Features
 
@@ -22,7 +22,7 @@ You can download a precompiled binary or build it yourself:
 
 Visit the releases section, select the version you need, and download the binary:
 ```bash
-wget https://github.com/sotchenkov/binbanned.git
+wget https://github.com/sotchenkov/binbanned/releases/ (required file)
 ```
 
 * **Build:**
@@ -47,7 +47,7 @@ sudo chmod +x binbanned
 sudo mv binbanned /usr/bin/
 ```
 
-2. **Create a Linux service and specify the necessary parameters:**
+2. **Create a systemd service and specify the necessary parameters:**
 ```bash
 sudo vim /etc/systemd/system/binbanned.service
 ```
