@@ -1,6 +1,6 @@
 # Binbanned
 
-[Readme на русском](#README-RU.md)
+[Readme на русском](https://github.com/sotchenkov/binbanned/blob/main/README-RU.md)
 
 **Binbanned** — is a utility for real-time monitoring of Nginx logs and automatic IP blocking at the Nginx level for suspicious requests. It supports both JSON logs and the Common Log Format.
 
